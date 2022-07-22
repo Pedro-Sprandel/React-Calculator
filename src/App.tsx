@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css';
-import { Box } from '@chakra-ui/react';
+import { Calculator } from './components/Calculator';
 
-export const App = () => {
+export const App: React.FC = () => {
   return (
-    <Box></Box>
+    <Calculator />
   );
 }
